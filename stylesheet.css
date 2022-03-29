@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-    width: flex;
+    width: 100%;
     display: flex;
     margin: 20px auto;
     justify-content: center;
