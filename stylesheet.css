@@ -101,7 +101,5 @@
 @media all and (max-width: 670px)) {
   .contentA{
     width: 100%;
-    margin-bottom: 50px;
     font-size: 5px;
-    float:left;
   }
