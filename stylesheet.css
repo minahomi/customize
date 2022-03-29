@@ -39,6 +39,8 @@
   display:inline-block;
   border-radius: 50%;
   margin-right:24px;
+  
+  
 }
 
 /* handleクラスのCSSを指定してください */
@@ -95,22 +97,9 @@
   background-color:Sienna;
 }
 
-/* タブレット向けレイアウト */
-@media all and (max-width: 1000px) {
-  .contentA {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .contentB {
-    width: 50%;
-    margin-bottom: 50px;
-    font-size: 20px;
-  }
-
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px)) {
-  .contentA,contentB {
+  .contentA{
     width: 100%;
     margin-bottom: 50px;
     font-size: 10px;
