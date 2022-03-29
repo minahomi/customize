@@ -10,8 +10,8 @@
  font-size: 0;
  display: block;
  background: pink;
- margin: 0 auto;
- float: left;
+ margin-top: 50px;
+ position: -10px;
 }
 
 .contentB{
@@ -88,6 +88,6 @@
   background-color:DarkOliveGreen;
 }
 
-.bottom-MidnightBlue{
-  background-color:MidnightBlue;
+.bottom-Sienna{
+  background-color:Sienna;
 }
