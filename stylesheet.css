@@ -96,18 +96,27 @@
 }
 
 /* タブレット向けレイアウト */
-/* ブレイクポイントをmax-width: 1000pxに指定してください */
-@media(max-width: 1000px){
-  .item{
-    width:50%;
+@media all and (max-width: 1000px) {
+  .contentA {
+    width: 50%;
+    margin-bottom: 50px;
   }
-}
 
-
-/* スマートフォン向けレイアウト */
-/* ブレイクポイントをmax-width: 670pxに指定してください */
-@media(max-width: 1000px){
-  .item{
-    width:100%;
+  .contentB {
+    width: 50%;
+    margin-bottom: 50px;
+    font-size: 20px;
   }
-}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px)) {
+  .contentA {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .contentB {
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 10px;
+  }
