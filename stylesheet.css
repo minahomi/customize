@@ -1,0 +1,93 @@
+.wrapper {
+    width: flex;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.contentA{
+ width: 50%;
+ font-size: 0;
+ display: block;
+ background: pink;
+ margin: 0 auto;
+ float: left;
+}
+
+.contentB{
+ width: 30%;
+ margin: 0 auto;
+ background: skyblue;
+}
+ 
+.main, .side {
+    padding: 20px;
+}
+
+/* pクラスのCSSを指定してください */
+.p{
+  font-family: "Helvetica";
+  font-weight: bold;
+}
+
+/* btnクラスのCSSを指定してください */
+.btn {
+  padding:24px;
+  display:inline-block;
+  border-radius: 50%;
+  margin-right:24px;
+}
+
+/* handleクラスのCSSを指定してください */
+.handle-DarkGoldenrod{
+  background-color:DarkGoldenrod;
+}
+
+.handle-Peru{
+  background-color:Peru;
+}
+
+.handle-DarkRed{
+  background-color:DarkRed;
+}
+
+.handle-SaddleBrown{
+  background-color:SaddleBrown;
+}
+
+
+/* patternクラスのCSSを指定してください */
+.pattern-PaleVioletred{
+  background-color:PaleVioletred;
+}
+
+.pattern-DarkSalmon{
+  background-color:DarkSalmon;
+}
+
+.pattern-Goldenrod{
+  background-color:Goldenrod;
+}
+
+.pattern-Khaki{
+  background-color:Khaki;
+}
+
+
+/* bottomクラスのCSSを指定してください */
+
+.bottom-Maroon{
+  background-color:Maroon;
+}
+
+.bottom-SteelBlue{
+  background-color:SteelBlue;
+}
+
+.bottom-DarkOliveGreen{
+  background-color:DarkOliveGreen;
+}
+
+.bottom-MidnightBlue{
+  background-color:MidnightBlue;
+}
