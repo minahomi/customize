@@ -1,20 +1,20 @@
 //handle-DarkGoldenrod
 function showimg1(){
-    document.area1.src = "https://static.wixstatic.com/media/a7f31f_e0ce83979ff9433cb2b5dfe71512140c~mv2.png";
+    document.area1.src = "https://static.wixstatic.com/media/a7f31f_b061fa08df164f0f95a880ad550e412c~mv2.png";
     }
  //handle-Peru   
 function showimg2(){
-    document.area1.src = "https://static.wixstatic.com/media/a7f31f_b061fa08df164f0f95a880ad550e412c~mv2.png";
+    document.area1.src = "https://static.wixstatic.com/media/a7f31f_09a635ca8e864318a0b8e7f9c7421e48~mv2.png";
     }
 
 //handle-DarkRed  
 function showimg3(){
-    document.area1.src = "https://static.wixstatic.com/media/a7f31f_09a635ca8e864318a0b8e7f9c7421e48~mv2.png";
+    document.area1.src = "https://static.wixstatic.com/media/a7f31f_a506fe2bae8c44baa6113fea4c20672f~mv2.png";
     }
 
 //handle-SaddleBrown
 function showimg4(){
-    document.area2.src = "https://static.wixstatic.com/media/a7f31f_a9611e15dc4c4b2f8faa5836661f8939~mv2.png";
+    document.area1.src = "https://static.wixstatic.com/media/a7f31f_e0ce83979ff9433cb2b5dfe71512140c~mv2.png";
     }
 //pattern-PaleVioletred
 function showimg5(){
