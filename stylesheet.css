@@ -1,3 +1,8 @@
+/* すべての要素に対して box-sizing: border-box; を指定してください */
+*{
+  box-sizing: border-box;
+}
+
 .wrapper {
     width: flex;
     display: flex;
@@ -10,6 +15,7 @@
  font-size: 0;
  display: block;
  margin-top: 0px;
+  padding: -20px;
 }
 
 .contentB{
@@ -18,7 +24,7 @@
 }
  
 .main, .side {
-    padding: 20px;
+ padding: 20px;
 }
 
 /* fontクラスのCSSを指定してください */
@@ -87,4 +93,21 @@
 
 .bottom-Sienna{
   background-color:Sienna;
+}
+
+/* タブレット向けレイアウト */
+/* ブレイクポイントをmax-width: 1000pxに指定してください */
+@media(max-width: 1000px){
+  .item{
+    width:50%;
+  }
+}
+
+
+/* スマートフォン向けレイアウト */
+/* ブレイクポイントをmax-width: 670pxに指定してください */
+@media(max-width: 1000px){
+  .item{
+    width:100%;
+  }
 }
