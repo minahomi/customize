@@ -14,7 +14,7 @@ function showimg3(){
 
 //handle-SaddleBrown
 function showimg4(){
-    document.area1.src = "https://static.wixstatic.com/media/a7f31f_e0ce83979ff9433cb2b5dfe71512140c~mv2.png";
+    document.area1.src = "https://static.wixstatic.com/media/a7f31f_a506fe2bae8c44baa6113fea4c20672f~mv2.png";
     }
 //pattern-PaleVioletred
 function showimg5(){
