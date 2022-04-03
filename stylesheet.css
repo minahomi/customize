@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+/* clearクラスにfloatを解除するためのCSSを記述してください */
+.clear {
+  clear: left;  
+}
+
 .wrapper {
     width: 100%;
     display: flex;
@@ -15,7 +20,7 @@
  font-size: 0;
  display: block;
  margin-top: 0px;
-  padding: -20px;
+ padding: -20px;
 }
 
 .contentB{
@@ -35,12 +40,10 @@
 
 /* btnクラスのCSSを指定してください */
 .btn {
-  padding:24px;
+  padding:15px;
   display:inline-block;
   border-radius: 50%;
-  margin-right:24px;
-  
-  
+  margin-right:5px;
 }
 
 /* handleクラスのCSSを指定してください */
@@ -98,8 +101,15 @@
 }
 
 /* スマホ向けレイアウト */
-@media all and (max-width: 670px)) {
+@media(max-width: 640px){
   .contentA{
-    width: 100%;
-    font-size: 5px;
+    width:100%;
+    margin:0.auto;
   }
+}
+
+  .contentB{
+    width:100%;
+    margin:0.auto;
+  }
+}
