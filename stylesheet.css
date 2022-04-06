@@ -10,7 +10,8 @@
 
 .wrapper {
   width: 100%;
-  display: flex;
+  float: left;
+  justify-content: center;
 }
 
 .contentA{
@@ -35,7 +36,7 @@
 /* btnクラスのCSSを指定してください */
 .btn {
   padding:15px;
-  display:inline-block;
+  float: left;
   border-radius: 50%;
   margin-right:5px;
 }
