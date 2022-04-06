@@ -81,25 +81,6 @@
   background-color:Khaki;
 }
 
-
-/* bottomクラスのCSSを指定してください */
-
-.bottom-Maroon{
-  background-color:Maroon;
-}
-
-.bottom-SteelBlue{
-  background-color:SteelBlue;
-}
-
-.bottom-DarkOliveGreen{
-  background-color:DarkOliveGreen;
-}
-
-.bottom-Sienna{
-  background-color:Sienna;
-}
-
 /* タブレット向けレイアウト */
 @media(max-width: 1000px){
   .wrapper {
