@@ -1,5 +1,11 @@
-/* タブレット向けレイアウト */
 @media(max-width: 1000px){
+  .wrapper {
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    max-width:1000px;
+}
   .contentA{
     width:50%;
     margin:0.auto;
@@ -14,6 +20,13 @@
 
 /* スマホ向けレイアウト */
 @media(max-width: 670px){
+  .wrapper {
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    max-width:1000px;
+}
   .contentA{
     width:100%;
     margin:0.auto;
