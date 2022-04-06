@@ -130,13 +130,11 @@ li{
 /* 以下responce.cssに記述 */
   
   /* スマホ向けレイアウト */
-
+@media(max-width: 670px){
   .wrapper {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px auto;
-    justify-content: center;
   }
   
   .main{
@@ -152,7 +150,7 @@ li{
 
  .font{
     font-size:20px;
-    margin:10 auto;
+    margin:0 auto;
     font-family: "Helvetica";
     font-weight: bold;
   }
@@ -160,9 +158,8 @@ li{
 
     .buttonlist {
 		height:60px;
-		margin:10 auto;
 		position:relative;
-    	width: 70%
+    	width: 100%
   }
 
 .btn {
