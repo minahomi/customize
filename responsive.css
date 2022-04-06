@@ -2,6 +2,11 @@
 
 /* スマホ向けレイアウト */
 @media(max-width: 670px){
+  .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
   .contentA{
     width:100%;
