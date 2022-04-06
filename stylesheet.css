@@ -9,20 +9,20 @@
 }
 
 .wrapper {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 
 .contentA{
- width: 50%;
- font-size: 0;
- display: block;
- margin: 0 auto;
+  width: 50%;
+  font-size: 0;
+  display: block;
+  margin: 0 auto;
 }
 
 .contentB{
- width: 30%;
- margin: 0 auto;
+  width: 30%;
+  margin: 0 auto;
 }
 
 
