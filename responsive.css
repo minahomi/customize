@@ -1,12 +1,24 @@
-/* 以下responce.cssに記述 */
-
-/* スマホ向けレイアウト */
-@media(max-width: 670px){
-
-.contentA{
-  width: 50%;
-  display: block;
-  margin: 0 auto;
-}
-
-}
+  /* 以下responce.cssに記述 */
+  
+  /* スマホ向けレイアウト */
+  @media(max-width: 480px){
+  
+  .main{
+    width: 100%;
+    display: block;
+  }
+    
+  .side{
+    width: 100%;
+    display: flex;
+    text-align:center;
+    margin: 0 auto;
+  }
+    
+   .btn {
+    padding:15px;
+    display: flex;
+    border-radius: 50%;
+  }
+  
+  }
