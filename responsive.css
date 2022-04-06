@@ -3,8 +3,10 @@
 /* スマホ向けレイアウト */
 @media(max-width: 670px){
 
-  .contentA{
-    width:100%;
-  }
+.contentA{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
 
 }
