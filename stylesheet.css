@@ -1,94 +1,139 @@
 /* すべての要素に対して box-sizing: border-box; を指定してください */
 *{
-  box-sizing: border-box;
-}
-
+    box-sizing: border-box;
+  }
+  
 /* clearクラスにfloatを解除するためのCSSを記述してください */
-.clear {
-  clear: left;  
+  .clear {
+    clear: left;  
+  }
+
+/* 2カラムにする*/
+  .wrapper {
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+  }
+
+  .main, .side {
+    padding: 20px;
 }
 
-.wrapper {
-  width: 100%;
+  .main {
+    background: pink;
+    width: 60%;
+    margin-right: 20px;
 }
 
-.contentA{
-  width: 50%;
-  display: block;
-  margin: 0 auto;
+  .side {
+    background: skyblue;
+    width: 20%;
 }
 
-.contentB{
-  width: 30%;
-  margin: 0 auto;
+  .main{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+.area1,area2,area3{
+  vertical-align: middle;
 }
+  
+  .side{
+    width: 30%;
+    margin: 0 auto;
+  }
+  
+  .font{
+    font-size:28px;
+    padding-bottom:5px;
+    margin-bottom:5px;
+    font-family: "Helvetica";
+    font-weight: bold;
+  }
+  
+  .choosecolor {
+    height: 100px;
+    width: 100%
+    margin: 10 auto;
+  }
 
 
-/* fontクラスのCSSを指定してください */
-.font{
-  font-family: "Helvetica";
-  font-weight: bold;
-}
-
-/* btnクラスのCSSを指定してください */
-.btn {
-  padding:15px;
-  float: left;
-  border-radius: 50%;
-  margin-right:5px;
-  position: relative;
-}
-
-/* handleクラスのCSSを指定してください */
-.handle-DarkGoldenrod{
-  background-color:DarkGoldenrod;
-}
-
-.handle-Peru{
-  background-color:Peru;
-}
-
-.handle-DarkRed{
-  background-color:DarkRed;
-}
-
-.handle-SaddleBrown{
-  background-color:SaddleBrown;
-}
 
 
-/* patternクラスのCSSを指定してください */
-.pattern-PaleVioletred{
-  background-color:PaleVioletred;
-}
 
-.pattern-DarkSalmon{
-  background-color:DarkSalmon;
-}
+  /* sideクラスのCSSを指定してください */
+  li{
+    list-style: none;
+    float: left;
+  }
 
-.pattern-Goldenrod{
-  background-color:Goldenrod;
-}
+  .buttonlist {
+    height: 50px;
+    width: 100%
+    margin: 0 auto;
+  }
+  
+  .btn {
+    padding:15px;
+    border-radius: 50%;
+    margin-right:5px;
+  }
+  
+  /* handleクラスのCSSを指定してください */
 
-.pattern-Khaki{
-  background-color:Khaki;
-}
-
-
-/* bottomクラスのCSSを指定してください */
-
-.bottom-Maroon{
-  background-color:Maroon;
-}
-
-.bottom-SteelBlue{
-  background-color:SteelBlue;
-}
-
-.bottom-DarkOliveGreen{
-  background-color:DarkOliveGreen;
-}
-
-.bottom-Sienna{
-  background-color:Sienna;
-}
+  .handle-DarkGoldenrod{
+    background-color:DarkGoldenrod;
+  }
+  
+  .handle-Peru{
+    background-color:Peru;
+  }
+  
+  .handle-DarkRed{
+    background-color:DarkRed;
+  }
+  
+  .handle-SaddleBrown{
+    background-color:SaddleBrown;
+  }
+  
+  
+  /* patternクラスのCSSを指定してください */
+  .pattern-PaleVioletred{
+    background-color:PaleVioletred;
+  }
+  
+  .pattern-DarkSalmon{
+    background-color:DarkSalmon;
+  }
+  
+  .pattern-Goldenrod{
+    background-color:Goldenrod;
+  }
+  
+  .pattern-Khaki{
+    background-color:Khaki;
+  }
+  
+  
+  /* bottomクラスのCSSを指定してください */
+  
+  .bottom-Maroon{
+    background-color:Maroon;
+  }
+  
+  .bottom-SteelBlue{
+    background-color:SteelBlue;
+  }
+  
+  .bottom-DarkOliveGreen{
+    background-color:DarkOliveGreen;
+  }
+  
+  .bottom-Sienna{
+    background-color:Sienna;
+  }
+  
