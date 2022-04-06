@@ -2,9 +2,6 @@
 
 /* スマホ向けレイアウト */
 @media(max-width: 670px){
-  .wrapper {
-    width: 100%;
-}
 
   .contentA{
     width:100%;
