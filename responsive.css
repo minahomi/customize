@@ -1,20 +1,5 @@
 /* 以下responce.cssに記述 */
 
-/* タブレット向けレイアウト */
-@media(max-width: 1000px){
-
-  .contentA{
-    width:50%;
-    margin:0.auto;
-  }
-}
-
-  .contentB{
-    width:50%;
-    float: left;
-  }
-}
-
 /* スマホ向けレイアウト */
 @media(max-width: 670px){
 
