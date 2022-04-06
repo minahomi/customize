@@ -2,19 +2,9 @@
 
 /* スマホ向けレイアウト */
 @media(max-width: 670px){
-  .wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 
   .contentA{
     width:100%;
-  }
-
-  .contentB{
-    width:100%;
-    text-align:center;
   }
 
 }
