@@ -1,116 +1,8 @@
-/* すべての要素に対して box-sizing: border-box; を指定してください */
-*{
-  box-sizing: border-box;
-}
-
-/* clearクラスにfloatを解除するためのCSSを記述してください */
-.clear {
-  clear: left;  
-}
-
-.wrapper {
-    width: 100%;
-    display: flex;
-    margin: 20px auto;
-    justify-content: center;
-    max-width:1000px;
-}
-
-.contentA{
- width: 50%;
- font-size: 0;
- display: block;
- margin: 0 auto;
-}
-
-.contentB{
- width: 30%;
- margin: 0 auto;
-}
- 
-.main, .side {
- padding: 20px;
-}
-
-/* fontクラスのCSSを指定してください */
-.font{
-  font-family: "Helvetica";
-  font-weight: bold;
-}
-
-/* btnクラスのCSSを指定してください */
-.btn {
-  padding:15px;
-  display:inline-block;
-  border-radius: 50%;
-  margin-right:5px;
-}
-
-/* handleクラスのCSSを指定してください */
-.handle-DarkGoldenrod{
-  background-color:DarkGoldenrod;
-}
-
-.handle-Peru{
-  background-color:Peru;
-}
-
-.handle-DarkRed{
-  background-color:DarkRed;
-}
-
-.handle-SaddleBrown{
-  background-color:SaddleBrown;
-}
-
-
-/* patternクラスのCSSを指定してください */
-.pattern-PaleVioletred{
-  background-color:PaleVioletred;
-}
-
-.pattern-DarkSalmon{
-  background-color:DarkSalmon;
-}
-
-.pattern-Goldenrod{
-  background-color:Goldenrod;
-}
-
-.pattern-Khaki{
-  background-color:Khaki;
-}
-
-
-/* bottomクラスのCSSを指定してください */
-
-.bottom-Maroon{
-  background-color:Maroon;
-}
-
-.bottom-SteelBlue{
-  background-color:SteelBlue;
-}
-
-.bottom-DarkOliveGreen{
-  background-color:DarkOliveGreen;
-}
-
-.bottom-Sienna{
-  background-color:Sienna;
-}
-
 /* 以下responce.cssに記述 */
 
 /* タブレット向けレイアウト */
 @media(max-width: 1000px){
-  .wrapper {
-    width: 100%;
-    display: flex;
-    margin: 20px auto;
-    justify-content: center;
-    max-width:1000px;
-}
+
   .contentA{
     width:50%;
     margin:0.auto;
@@ -125,12 +17,7 @@
 
 /* スマホ向けレイアウト */
 @media(max-width: 670px){
-  .wrapper {
-    width: 100%;
-    display: flex;
-    margin: 20px auto;
-    justify-content: center;
-}
+
   .contentA{
     width:100%;
     margin:0.auto;
