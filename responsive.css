@@ -1,3 +1,6 @@
+/* 以下responce.cssに記述 */
+
+/* タブレット向けレイアウト */
 @media(max-width: 1000px){
   .wrapper {
     width: 100%;
@@ -14,8 +17,7 @@
 
   .contentB{
     width:50%;
-    margin:0.auto;
-    margin-bottom:50px;
+    float: left;
   }
 }
 
@@ -26,7 +28,6 @@
     display: flex;
     margin: 20px auto;
     justify-content: center;
-    max-width:1000px;
 }
   .contentA{
     width:100%;
@@ -35,8 +36,7 @@
 }
 
   .contentB{
-    width:50%;
-    margin:0.auto;
+    float: left;
   }
 }
 .font{
