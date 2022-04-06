@@ -21,13 +21,11 @@
 }
 
   .main {
-    background: pink;
     width: 60%;
     margin-right: 20px;
 }
 
   .side {
-    background: skyblue;
     width: 20%;
 }
 
@@ -54,27 +52,19 @@
     font-weight: bold;
   }
   
-  .choosecolor {
-    height: 100px;
-    width: 100%
-    margin: 10 auto;
-  }
-
-
-
 
 
   /* sideクラスのCSSを指定してください */
-  li{
+.buttonlist{
+  width:100%;
+}
+
+li{
     list-style: none;
     float: left;
   }
 
-  .buttonlist {
-    height: 50px;
-    width: 100%
-    margin: 0 auto;
-  }
+
   
   .btn {
     padding:15px;
