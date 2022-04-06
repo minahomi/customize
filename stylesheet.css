@@ -38,6 +38,7 @@
   float: left;
   border-radius: 50%;
   margin-right:5px;
+  position: relative;
 }
 
 /* handleクラスのCSSを指定してください */
