@@ -10,12 +10,10 @@
 
 .wrapper {
   width: 100%;
-  justify-content: center;
 }
 
 .contentA{
   width: 50%;
-  font-size: 0;
   display: block;
   margin: 0 auto;
 }
