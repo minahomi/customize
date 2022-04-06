@@ -126,3 +126,46 @@ li{
   .bottom-Sienna{
     background-color:Sienna;
   }
+
+  /* スマホ向けレイアウト */
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    justify-content: center;
+  }
+  
+  .main{
+    width: 100%;
+    display: block;
+  }
+    
+  .side{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+ .font{
+    font-size:20px;
+    margin:10 auto;
+    font-family: "Helvetica";
+    font-weight: bold;
+  }
+  
+
+    .buttonlist {
+		height:60px;
+		margin:10 auto;
+		position:relative;
+    	width: 70%
+  }
+
+.btn {
+	position:relative;
+   display: flex;
+   border-radius: 50%;
+  }
+  
+  }
