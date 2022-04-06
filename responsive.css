@@ -1,7 +1,13 @@
   /* 以下responce.cssに記述 */
   
   /* スマホ向けレイアウト */
-  @media(max-width: 480px){
+  @media screen and (max-width: 480px){
+  .wrapper {
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+  }
   
   .main{
     width: 100%;
@@ -9,7 +15,6 @@
   }
     
   .side{
-    width: 100%;
     display: flex;
     text-align:center;
     margin: 0 auto;
