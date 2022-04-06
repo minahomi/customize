@@ -13,14 +13,14 @@
     display: flex;
     margin: 20px auto;
     justify-content: center;
+    max-width:1000px;
 }
 
 .contentA{
  width: 50%;
  font-size: 0;
  display: block;
- margin-top: 0px;
- padding: -20px;
+ margin: 0 auto;
 }
 
 .contentB{
@@ -100,16 +100,23 @@
   background-color:Sienna;
 }
 
-/* スマホ向けレイアウト */
-@media(max-width: 640px){
+/* タブレット向けレイアウト */
+@media(max-width: 1000px){
+  .wrapper {
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    max-width:1000px;
+}
   .contentA{
-    width:100%;
+    width:50%;
     margin:0.auto;
   }
 }
 
   .contentB{
-    width:100%;
+    width:50%;
     margin:0.auto;
   }
 }
