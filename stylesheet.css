@@ -127,8 +127,10 @@ li{
     background-color:Sienna;
   }
 
+/* 以下responce.cssに記述 */
+  
   /* スマホ向けレイアウト */
-@media(max-width: 670px){
+
   .wrapper {
     width: 100%;
     display: flex;
@@ -154,7 +156,6 @@ li{
     font-family: "Helvetica";
     font-weight: bold;
   }
-}
   
 
     .buttonlist {
