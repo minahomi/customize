@@ -175,7 +175,6 @@ padding-bottom:0px;
 
 
   .buttonlist {
-	  background :pink;
   height:3rem;
   width: 100%
 	  
@@ -183,7 +182,6 @@ padding-bottom:0px;
 	
 	ul{
 		margin:auto;
-		background:black;
 		padding: 10px;
 		width:100%;
 		
