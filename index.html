@@ -1,203 +1,68 @@
-/* すべての要素に対して box-sizing: border-box; を指定してください */
-*{
-  box-sizing: border-box;
-}
+<head>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="images.js">
+  <script src="images.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css" media="screen and (max-width:768px)">
+  <link rel="stylesheet" href="responsive.css" media="screen and (min-width:768px)">
 
-/* clearクラスにfloatを解除するためのCSSを記述してください */
-.clear {
-  clear: left;  
-}
-
-/* 2カラムにする*/
-.wrapper {
-  width: 80%;
-  display: flex;
-  margin: 20px auto;
-  align-items: center;
-}
-
-.main, .side {
-  padding: 20px;
-  align-items: center;
-}
-
-.main {
-  width: 60%;
-  margin-right: 20px;
-}
-
-.side {
-  width: 20%;
-  height: 500px;
-}
-
-.main{
-  width: 50%;
-  display: block;
-  margin: 0 auto;
-}
-
-.area1,area2,area3{
-vertical-align: middle;
-}
-
-.side{
-  width: 30%;
-  margin: 0 auto;
-}
-
-.font{
-  font-size:24px;
-  padding-bottom:5px;
-  margin-bottom:5px;
-  font-family: "Helvetica";
-  font-weight: bold;
-}
-
-.buttonlist{
-height:50px;
-padding-bottom:5px;
-margin-bottom:5px;
-width:100%;
-}
-
-ul{
-padding-left: 0px;
-}
-
-
-
-li{	
-list-style: none;
-float: left;  
-}
-
-.btn {
-  padding:20px;
-  border-radius: 50%;
-  margin-right:10px;
-}
-
-/* handleクラスのCSSを指定してください */
-
-.handle-chocolate{
-  background-color:chocolate;
-}
-
-.handle-sandybrown{
-  background-color:sandybrown;
-}
-
-.handle-DarkRed{
-  background-color:DarkRed;
-}
-
-.handle-SaddleBrown{
-  background-color:SaddleBrown;
-}
-
-
-/* patternクラスのCSSを指定してください */
-.pattern-PaleVioletred{
-  background-color:PaleVioletred;
-}
-
-.pattern-DarkSalmon{
-  background-color:DarkSalmon;
-}
-
-.pattern-Goldenrod{
-  background-color:Goldenrod;
-}
-
-.pattern-Khaki{
-  background-color:Khaki;
-}
-
-
-/* bottomクラスのCSSを指定してください */
-
-.bottom-Maroon{
-  background-color:Maroon;
-}
-
-.bottom-SteelBlue{
-  background-color:SteelBlue;
-}
-
-.bottom-DarkOliveGreen{
-  background-color:DarkOliveGreen;
-}
-
-.bottom-Sienna{
-  background-color:Sienna;
-}
-
-/* タブレット向けレイアウト */
-@media(max-width: 1000px){
-
-.btn {
-  padding:22px;
-position:relative;
- display: flex;
- border-radius: 50%;
-}
-
-}
-
-/* スマホ向けレイアウト */
-@media(max-width: 670px){
-.wrapper {
-  width: 100%;
-  flex-wrap: wrap;
-	padding:0px;
-	margin:0 auto;
-}
-
-.main{
-  width: 80%;
-  display: block;
-	padding:0px;
-	margin:0 auto;
-}
+  <meta charset="utf-8">
+</head>
   
-.side{
-  width: 80%;
-  text-align:center;
-  padding:0px;
-}
+  <div class="wrapper"> 
+    
+      <section class="main">
+			<img src="https://static.wixstatic.com/media/a7f31f_b061fa08df164f0f95a880ad550e412c~mv2.png" alt="" width=100% class="area1" name="area1">
+			<img src="https://static.wixstatic.com/media/a7f31f_199e476811724674ad8f08c7780734d2~mv2.png" alt="" width=100% class="area2" name="area2">
+			<img src="https://static.wixstatic.com/media/a7f31f_26d99b49594f455496e65deaa38b5feb~mv2.png" alt="" width=100% class="area3" name="area3">
+				
+			</section>
+    
+      <section class="side">
 
-.font{
-  font-size:20px;
-  font-family: "Helvetica";
-  font-weight: bold;
-		padding:0px;
-	margin:0px;
-	
-}
+        
+          <p class ="font">handle</p>
+          <div class = "buttonlist">
+            <ul>
+            <li input type="button" onclick="showimg1()" class="btn handle-chocolate"></li>
+            <li input type="button" onclick="showimg2()" class="btn handle-sandybrown"></li>
+            <li input type="button" onclick="showimg3()" class="btn handle-DarkRed"></li>
+            <li input type="button" onclick="showimg4()" class="btn handle-SaddleBrown"></li>
+            </ul>
+          
+        </div>
 
+        <br>
 
-  .buttonlist {
-	  padding: 0px;
-	  background:black;
-     width: 100%;
-	  display:flex;
-	  justify-content: center;
-	  align-items:center;
-}
-	
-	ul{
-		
-		background:blue;
-		padding-left: 0px;
-		display:flex;
-	  justify-content: center;
-	  align-items:center;
-	}
-	
+        
+          <p class ="font">pattern</p>
+          <div class = "buttonlist">
+            <ul>
+            <li input type="button" onclick="showimg5()" class="btn pattern-PaleVioletred"></li>
+            <li input type="button" onclick="showimg6()" class="btn pattern-DarkSalmon"></li>
+            <li input type="button" onclick="showimg7()" class="btn pattern-Goldenrod"></li>
+            <li input type="button" onclick="showimg8()" class="btn pattern-Khaki"></li>
+            </ul>
+          
+        </div>
+        
+        <br>
+       
+          <p class ="font">bottom</p>
+          <div class = "buttonlist">
+            <ul>
+            <li input type="button" onclick="showimg9()" class="btn bottom-Maroon"></li>
+            <li input type="button" onclick="showimg10()" class="btn bottom-SteelBlue"></li>
+            <li input type="button" onclick="showimg11()" class="btn bottom-DarkOliveGreen"></li>
+            <li input type="button" onclick="showimg12()" class="btn bottom-Sienna"></li>
+            </ul>
+          
+        </div>
 
-	
-	.btn {
-padding:18px;
- border-radius: 50%
-}
+      </section>
+    
+      <div class="clear">
+      </div>
+    
+
+   </div>
