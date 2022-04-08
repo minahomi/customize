@@ -12,39 +12,31 @@
 .wrapper {
   width: 80%;
   display: flex;
-  margin: 20px auto;
+  margin: 0px auto;
   align-items: center;
 }
 
 .main, .side {
-  padding: 20px;
+  padding: 0px;
   align-items: center;
+}
+.area1,.area2,.area3 {
+	display:block;
 }
 
 .main {
   width: 60%;
-  margin-right: 20px;
+  display: block;
+  margin: 0 auto;
 }
 
 .side {
   width: 20%;
   height: 500px;
-}
-
-.main{
-  width: 50%;
-  display: block;
-  margin: 0 auto;
-}
-
-.area1,area2,area3{
-vertical-align: middle;
-}
-
-.side{
   width: 30%;
   margin: 0 auto;
 }
+
 
 .font{
   font-size:24px;
@@ -137,7 +129,7 @@ float: left;
 @media(max-width: 1000px){
 
 .btn {
-  padding:15px;
+  padding:22px;
 position:relative;
  display: flex;
  border-radius: 50%;
@@ -171,7 +163,6 @@ position:relative;
   font-size:20px;
   font-family: "Helvetica";
   font-weight: bold;
-		padding:0px;
 	margin:0px;
 	
 }
@@ -179,16 +170,12 @@ position:relative;
 
   .buttonlist {
 	  padding: 0px;
-	  background:black;
-     width: 100%;
 	  display:flex;
 	  justify-content: center;
 	  align-items:center;
 }
 	
 	ul{
-		
-		background:blue;
 		padding-left: 0px;
 		display:flex;
 	  justify-content: center;
@@ -198,6 +185,6 @@ position:relative;
 
 	
 	.btn {
-padding:20px;
+padding:18px;
  border-radius: 50%
 }
