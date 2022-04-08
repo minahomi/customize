@@ -1,171 +1,203 @@
 /* すべての要素に対して box-sizing: border-box; を指定してください */
 *{
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+}
+
 /* clearクラスにfloatを解除するためのCSSを記述してください */
-  .clear {
-    clear: left;  
-  }
+.clear {
+  clear: left;  
+}
 
 /* 2カラムにする*/
-  .wrapper {
-    width: 80%;
-    display: flex;
-    margin: 20px auto;
-    justify-content: center;
-  }
-
-  .main, .side {
-    padding: 20px;
+.wrapper {
+  width: 80%;
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
 }
 
-  .main {
-    width: 60%;
-    margin-right: 20px;
+.main, .side {
+  padding: 20px;
+  align-items: center;
 }
 
-  .side {
-    width: 20%;
+.main {
+  width: 60%;
+  margin-right: 20px;
 }
 
-  .main{
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-  }
+.side {
+  width: 20%;
+  height: 500px;
+}
+
+.main{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
 
 .area1,area2,area3{
-  vertical-align: middle;
+vertical-align: middle;
 }
-  
-  .side{
-    width: 30%;
-    margin: 0 auto;
-  }
-  
-  .font{
-    font-size:28px;
-    padding-bottom:5px;
-    margin-bottom:5px;
-    font-family: "Helvetica";
-    font-weight: bold;
-  }
-  
 
+.side{
+  width: 30%;
+  margin: 0 auto;
+}
 
-  /* sideクラスのCSSを指定してください */
+.font{
+  font-size:24px;
+  padding-bottom:5px;
+  margin-bottom:5px;
+  font-family: "Helvetica";
+  font-weight: bold;
+}
+
 .buttonlist{
-  width:100%;
+height:50px;
+padding-bottom:5px;
+margin-bottom:5px;
+width:100%;
 }
 
-li{
-    list-style: none;
-    float: left;
-  }
+ul{
+padding-left: 0px;
+}
 
 
-  
-  .btn {
-    padding:15px;
-    border-radius: 50%;
-    margin-right:5px;
-  }
-  
-  /* handleクラスのCSSを指定してください */
 
-  .handle-DarkGoldenrod{
-    background-color:DarkGoldenrod;
-  }
-  
-  .handle-Peru{
-    background-color:Peru;
-  }
-  
-  .handle-DarkRed{
-    background-color:DarkRed;
-  }
-  
-  .handle-SaddleBrown{
-    background-color:SaddleBrown;
-  }
-  
-  
-  /* patternクラスのCSSを指定してください */
-  .pattern-PaleVioletred{
-    background-color:PaleVioletred;
-  }
-  
-  .pattern-DarkSalmon{
-    background-color:DarkSalmon;
-  }
-  
-  .pattern-Goldenrod{
-    background-color:Goldenrod;
-  }
-  
-  .pattern-Khaki{
-    background-color:Khaki;
-  }
-  
-  
-  /* bottomクラスのCSSを指定してください */
-  
-  .bottom-Maroon{
-    background-color:Maroon;
-  }
-  
-  .bottom-SteelBlue{
-    background-color:SteelBlue;
-  }
-  
-  .bottom-DarkOliveGreen{
-    background-color:DarkOliveGreen;
-  }
-  
-  .bottom-Sienna{
-    background-color:Sienna;
-  }
-
-/* 以下responce.cssに記述 */
-  
-  /* スマホ向けレイアウト */
-@media(max-width: 670px){
-  .wrapper {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .main{
-    width: 100%;
-    display: block;
-  }
-    
-  .side{
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
- .font{
-    font-size:20px;
-    margin:0 auto;
-    font-family: "Helvetica";
-    font-weight: bold;
-  }
-  
-
-    .buttonlist {
-		height:5rem;
-		position:relative;
-    	width: 100%
-  }
+li{	
+list-style: none;
+float: left;  
+}
 
 .btn {
-	position:relative;
-   display: flex;
-   border-radius: 50%;
-  }
+  padding:20px;
+  border-radius: 50%;
+  margin-right:10px;
+}
+
+/* handleクラスのCSSを指定してください */
+
+.handle-DarkGoldenrod{
+  background-color:DarkGoldenrod;
+}
+
+.handle-Peru{
+  background-color:Peru;
+}
+
+.handle-DarkRed{
+  background-color:DarkRed;
+}
+
+.handle-SaddleBrown{
+  background-color:SaddleBrown;
+}
+
+
+/* patternクラスのCSSを指定してください */
+.pattern-PaleVioletred{
+  background-color:PaleVioletred;
+}
+
+.pattern-DarkSalmon{
+  background-color:DarkSalmon;
+}
+
+.pattern-Goldenrod{
+  background-color:Goldenrod;
+}
+
+.pattern-Khaki{
+  background-color:Khaki;
+}
+
+
+/* bottomクラスのCSSを指定してください */
+
+.bottom-Maroon{
+  background-color:Maroon;
+}
+
+.bottom-SteelBlue{
+  background-color:SteelBlue;
+}
+
+.bottom-DarkOliveGreen{
+  background-color:DarkOliveGreen;
+}
+
+.bottom-Sienna{
+  background-color:Sienna;
+}
+
+/* タブレット向けレイアウト */
+@media(max-width: 1000px){
+
+.btn {
+  padding:15px;
+position:relative;
+ display: flex;
+ border-radius: 50%;
+}
+
+}
+
+/* スマホ向けレイアウト */
+@media(max-width: 670px){
+.wrapper {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.main{
+  width: 80%;
+  display: block;
+}
   
-  }
+.side{
+  width: 80%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.font{
+  font-size:20px;
+  margin:0 auto;
+  font-family: "Helvetica";
+  font-weight: bold;
+padding-bottom:0px;
+  margin-bottom:0px;
+}
+
+
+  .buttonlist {
+	  background :pink;
+  height:3rem;
+  width: 100%
+	  
+}
+	
+	ul{
+		margin:auto;
+		background:black;
+		padding: 10px;
+		width:50%;
+		
+		
+
+	}
+	
+	li{
+		margin:0 auto;
+	}
+	
+
+.btn {
+padding:12px;
+ border-radius: 50%;
+
+}
