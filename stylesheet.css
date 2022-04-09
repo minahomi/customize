@@ -20,13 +20,9 @@
   padding: 0px;
   align-items: center;
 }
-.area1,.area2 {
+.area1,.area2,.area3 {
 	display:block;
 	margin: 0px auto;
-}
-
-.area3 {
-	display:block;
 }
 
 .main {
